@@ -1,3 +1,5 @@
+from rich import print
+
 from determinant import determinant
 print('[green]ENTER A 3X3 MATRIX TO FIND ITS INVERSE[/green]')
 a = int(input("Enter the value of a: "))
